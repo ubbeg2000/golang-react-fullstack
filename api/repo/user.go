@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"golang-api/api/models"
+	"github.com/ubbeg2000/golang-react-fullstack/api/models"
 
 	"gorm.io/gorm"
 )

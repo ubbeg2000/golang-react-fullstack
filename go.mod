@@ -1,4 +1,4 @@
-module golang-api
+module github.com/ubbeg2000/golang-react-fullstack
 
 go 1.15
 

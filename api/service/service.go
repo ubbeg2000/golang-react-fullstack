@@ -1,7 +1,7 @@
 package service
 
 import (
-	"golang-api/api/repo"
+	"github.com/ubbeg2000/golang-react-fullstack/api/repo"
 )
 
 var r repo.Repo = repo.New()

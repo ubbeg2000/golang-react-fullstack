@@ -1,7 +1,7 @@
 package repo
 
 import (
-	db "golang-api/api/database"
+	db "github.com/ubbeg2000/golang-react-fullstack/api/database"
 )
 
 type Repo struct {

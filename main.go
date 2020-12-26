@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang-api/api"
+	"github.com/ubbeg2000/golang-react-fullstack/api"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package api
 
 import (
-	"golang-api/api/routes"
+	"github.com/ubbeg2000/golang-react-fullstack/api/routes"
 
 	"github.com/gofiber/fiber/v2"
 )

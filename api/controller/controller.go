@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"golang-api/api/service"
+	"github.com/ubbeg2000/golang-react-fullstack/api/service"
 )
 
 var s service.Service = service.New()
