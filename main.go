@@ -1,8 +1,6 @@
 package main
 
 import (
-	"log"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/spf13/viper"
 	"github.com/ubbeg2000/golang-react-fullstack/api"
@@ -23,5 +21,7 @@ func main() {
 		})
 	})
 
-	log.Fatal(app.Listen(viper.GetString(`server.port`)))
+	// app.Use(logger.New())
+
+	app.Listen(viper.GetString(`server.port`))
 }

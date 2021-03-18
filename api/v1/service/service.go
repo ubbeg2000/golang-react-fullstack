@@ -9,11 +9,19 @@ var r repo.Repo = repo.New()
 type Service struct {
 	User  UserService
 	Event EventService
+	Auth  AuthService
 }
+
+var (
+	userService  UserService  = UserService{r}
+	eventService EventService = EventService{r}
+	authService  AuthService  = AuthService{r}
+)
 
 func New() Service {
 	return Service{
-		UserService{r},
-		EventService{r},
+		userService,
+		eventService,
+		authService,
 	}
 }
